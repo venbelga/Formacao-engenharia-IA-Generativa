@@ -1,0 +1,10 @@
+texto = input("Digite um texto: ")
+print("Quantidade de caracteres:", len(texto))
+print("Texto em maiúsculas:", texto.upper())
+print("Texto em minúsculas:", texto.lower())
+
+print("\nExemplos de slice:")
+print("Primeiros 5 caracteres:", texto[0:5])
+print("Últimos 3 caracteres:", texto[-3:])
+print("Caracteres de 2 em 2:", texto[::2])
+print("Texto ao contrário:", texto[::-1])
